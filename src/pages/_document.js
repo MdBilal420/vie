@@ -14,12 +14,12 @@ class MyDocument extends Document {
         <Head>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
-            name="keywords"
-            content="HTML5 Template Vie onepage themeforest"
+            name="Influence Media"
+            content="Influence Media Agency"
           />
           <meta
-            name="description"
-            content="Vie - Onepage Multi-Purpose HTML5 Template"
+            name="Brand Awareness"
+            content="Increase Sales Reversing Bad Publicity"
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/favicon.ico" />

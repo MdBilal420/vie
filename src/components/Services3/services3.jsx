@@ -36,7 +36,7 @@ const Services3 = () => {
               <p>
                 Implant your brand name in the brain of hundreds of millions of consumers.
               </p>
-              <Link href="/about/about-dark">
+              <Link href="/services/brand-awareness">
                 <a className="more-stroke">
                   <span></span>
                 </a>
@@ -54,7 +54,7 @@ const Services3 = () => {
               We can 2,3,10x your revenue and then you have completely new company on
               Your hands.
               </p>
-              <Link href="/about/about-dark">
+              <Link href="/services/increase-your-sales-right-away">
                 <a className="more-stroke">
                   <span></span>
                 </a>
@@ -71,7 +71,7 @@ const Services3 = () => {
               <p>
                 It guarantees that you sustain awareness and sales for your brandin coming years
               </p>
-              <Link href="/about/about-dark">
+              <Link href="/services/become-household-name">
                 <a className="more-stroke">
                   <span></span>
                 </a>
@@ -88,7 +88,7 @@ const Services3 = () => {
               <p>
                 Bad things can happen to any brand or director. Here we are to reverse it painlessly.
               </p>
-              <Link href="/about/about-dark">
+              <Link href="/services/reversing-bad-publicity">
                 <a className="more-stroke">
                   <span></span>
                 </a>

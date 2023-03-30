@@ -47,8 +47,8 @@ const Navbar = ({ lr, nr, theme }) => {
             {/* <li className="nav-item dropdown" 
             onClick={handleDropdown}
             > */}
-            <li className="nav-item">
-              <span
+            {/*<li className="nav-item">
+               <span
                 //className="nav-link dropdown-toggle"
                 className="nav-link"
                 data-toggle="dropdown"
@@ -57,8 +57,8 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-expanded="false"
               >
                 Home
-              </span>
-              {/* <div className="dropdown-menu">
+              </span> 
+              <div className="dropdown-menu">
                 <Link href={`/homepage/home1-dark`}>
                   <a className="dropdown-item">Main Home</a>
                 </Link>
@@ -83,7 +83,12 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href={`/homepage/home8-dark`}>
                   <a className="dropdown-item">Architecture</a>
                 </Link>
-              </div> */}
+              </div> 
+            </li>*/}
+            <li className="nav-item">
+              <Link href={`/`}>
+                <a className="nav-link">Home</a>
+              </Link>
             </li>
             <li className="nav-item">
               {/* <Link href={`/about/about-dark`}> */}
