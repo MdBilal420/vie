@@ -10,16 +10,16 @@ const Intro4 = ({ sliderRef, blackStar }) => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="cont text-center">
-              {/* <h1>
-                <span className="color-font">Creativity</span> is the process of
-                having <span className="color-font">original ideas</span>.
-              </h1> */}
               <h1>
+                Influence Media
+              </h1>
+              <h2><span className="color-font">Modern Media Conglomerate.</span></h2>
+              {/* <h1>
                 <span className="color-font">Influence Media</span> 
               </h1>
               <h2>
                 <b className="back-color">Modern Media Conglomerate</b> <span className="color-font">.</span>
-              </h2>
+              </h2> */}
             </div>
           </div>
         </div>

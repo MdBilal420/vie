@@ -44,9 +44,13 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            {/* <li className="nav-item dropdown" 
+            onClick={handleDropdown}
+            > */}
+            <li className="nav-item">
               <span
-                className="nav-link dropdown-toggle"
+                //className="nav-link dropdown-toggle"
+                className="nav-link"
                 data-toggle="dropdown"
                 role="button"
                 aria-haspopup="true"
@@ -54,7 +58,7 @@ const Navbar = ({ lr, nr, theme }) => {
               >
                 Home
               </span>
-              <div className="dropdown-menu">
+              {/* <div className="dropdown-menu">
                 <Link href={`/homepage/home1-dark`}>
                   <a className="dropdown-item">Main Home</a>
                 </Link>
@@ -79,24 +83,26 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href={`/homepage/home8-dark`}>
                   <a className="dropdown-item">Architecture</a>
                 </Link>
-              </div>
+              </div> */}
             </li>
             <li className="nav-item">
-              <Link href={`/about/about-dark`}>
+              {/* <Link href={`/about/about-dark`}> */}
                 <a className="nav-link">About</a>
-              </Link>
+              {/* </Link> */}
             </li>
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}> */}
+            <li className="nav-item">
               <span
-                className="nav-link dropdown-toggle"
+                //className="nav-link dropdown-toggle"
+                className="nav-link"
                 data-toggle="dropdown"
                 role="button"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Works
+                Services
               </span>
-              <div className="dropdown-menu">
+              {/* <div className="dropdown-menu">
                 <Link href={`/showcase/showcase-dark`}>
                   <a className="dropdown-item">Showcase Parallax</a>
                 </Link>
@@ -115,9 +121,9 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href={`/works3/works3-dark`}>
                   <a className="dropdown-item">Portfolio Gallery</a>
                 </Link>
-              </div>
+              </div> */}
             </li>
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -141,11 +147,11 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">Blog Details</a>
                 </Link>
               </div>
-            </li>
+            </li> */}
             <li className="nav-item">
-              <Link href={`/contact/contact-dark`}>
+              {/* <Link href={`/contact/contact-dark`}> */}
                 <a className="nav-link">Contact</a>
-              </Link>
+              {/* </Link> */}
             </li>
           </ul>
         </div>

@@ -38,7 +38,7 @@ const Footer = ({ hideBGCOLOR }) => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-4">
+          {/* <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
                 <h5>Recent News</h5>
@@ -100,7 +100,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">

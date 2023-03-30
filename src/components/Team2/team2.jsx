@@ -4,7 +4,7 @@ import React from "react";
 const Team2 = () => {
   return (
     <section className="team section-padding">
-      <div className="container">
+      {/* <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head text-center">
@@ -17,29 +17,30 @@ const Team2 = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/img/team/1.jpg" alt="" />
+                {/* <img src="/img/team/1.jpg" alt="" style={{width:10}} /> */}
+                <p>hello</p>
                 <div id="circle1">
                   <svg
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
                     y="0px"
-                    width="300px"
+                    width="100px"
                     height="300px"
-                    viewBox="0 0 300 300"
+                   viewBox="0 0 300 300"
                     enableBackground="new 0 0 300 300"
                     xmlSpace="preserve"
                   >
                     <defs>
                       <path
                         id="circlePath1"
-                        d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
+                         d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
                       />
                     </defs>
                     <circle cx="150" cy="100" r="75" fill="none" />
@@ -53,14 +54,14 @@ const Team2 = () => {
                     </g>
                   </svg>
                 </div>
-                <div className="info">
+                {/* <div className="info">
                   <h6>Ryan Hicks</h6>
                   <span>Client Manager</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          {/* <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
                 <img src="/img/team/2.jpg" alt="" />
@@ -180,7 +181,7 @@ const Team2 = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
