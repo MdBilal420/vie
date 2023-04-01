@@ -2,7 +2,6 @@ import React from "react";
 
 const Intro6 = () => {
   return (
-    <header className="mobile-app valign">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 valign">
@@ -50,7 +49,6 @@ const Intro6 = () => {
           </div>
         </div>
       </div>
-    </header>
   );
 };
 

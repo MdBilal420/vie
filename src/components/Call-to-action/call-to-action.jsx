@@ -40,16 +40,16 @@ const CallToAction = ({img}) => {
             </div> */}
           </div>
           <div className="row">
-          <div className="col-lg-12 col-md-12 items md-mb30">
-            <div className="item wow fadeIn" data-wow-delay=".3s">
-            <h5 className="wow words chars splitting" data-splitting>
-              Our Media Company is backed by International Asset Management Company <b className="back-color">Vanguard Hedge
-              Fund</b>. <br />Ensuring we don’t have a lack of funds . Our focus is not to make profits right away but to
-              build the largest modern mass media Conglomerate.<br /> It is guaranteed that any project we start
-              will be finished seamlessly ,no matter what.
-            </h5>
-          </div>
-          </div>
+            <div className="col-lg-12 col-md-12 items md-mb30">
+              <div className="item wow fadeIn" data-wow-delay=".3s">
+                <h5 className="wow words chars splitting" data-splitting>
+                  Our Media Company is backed by International Asset Management Company <b className="back-color">Vanguard Hedge
+                  Fund</b>. <br />Ensuring we don’t have a lack of funds . Our focus is not to make profits right away but to
+                  build the largest modern mass media Conglomerate.<br /> It is guaranteed that any project we start
+                  will be finished seamlessly ,no matter what.
+                </h5>
+              </div>
+            </div>
           </div>
         </div>
       </section>

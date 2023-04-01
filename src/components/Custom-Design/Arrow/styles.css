@@ -1,0 +1,42 @@
+.arrow {
+    width:120px;
+    margin:50px auto;
+    transform: rotate(140deg);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#12c2e9),
+      color-stop(#c471ed),
+      to(#f64f59)
+    );
+    background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+    background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+.line {
+    margin-top:14px;
+    width:90px;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#12c2e9),
+      color-stop(#c471ed),
+      to(#f64f59)
+    );
+    background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+    background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    height:10px;
+    float:left;
+}
+.point {	
+    width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 30px solid red;
+    float:right;
+}

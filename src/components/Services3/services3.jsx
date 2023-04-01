@@ -37,9 +37,10 @@ const Services3 = () => {
                 Implant your brand name in the brain of hundreds of millions of consumers.
               </p>
               <Link href="/services/brand-awareness">
-                <a className="more-stroke">
-                  <span></span>
-                </a>
+              {/* <a className="butn bord curve mt-30">
+                  <span>Read More</span>
+                </a> */}
+                <a className="simple-btn mt-30">Read More</a>
               </Link>
             </div>
           </div>
@@ -51,13 +52,11 @@ const Services3 = () => {
               </span>
               <h5>Increase Your Sales Right Away</h5>
               <p>
-              We can 2,3,10x your revenue and then you have completely new company on
+              We can 2x-3x-10x your revenue and then you have completely new company on
               Your hands.
               </p>
               <Link href="/services/increase-your-sales-right-away">
-                <a className="more-stroke">
-                  <span></span>
-                </a>
+              <a className="simple-btn mt-30">Read More</a>
               </Link>
             </div>
           </div>
@@ -72,9 +71,7 @@ const Services3 = () => {
                 It guarantees that you sustain awareness and sales for your brandin coming years
               </p>
               <Link href="/services/become-household-name">
-                <a className="more-stroke">
-                  <span></span>
-                </a>
+              <a className="simple-btn mt-30">Read More</a>
               </Link>
             </div>
           </div>
@@ -89,9 +86,7 @@ const Services3 = () => {
                 Bad things can happen to any brand or director. Here we are to reverse it painlessly.
               </p>
               <Link href="/services/reversing-bad-publicity">
-                <a className="more-stroke">
-                  <span></span>
-                </a>
+              <a className="simple-btn mt-30">Read More</a>
               </Link>
             </div>
           </div>
