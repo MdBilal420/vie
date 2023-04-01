@@ -11,14 +11,11 @@ const Services3 = () => {
     cardMouseEffect(document.querySelectorAll(".feat .items"));
   }, []);
   return (
-    <section className="feat sub-bg section-padding">
+    <section id="our-services" className="feat sub-bg section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head">
-              {/* <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Services
-              </h6> */}
               <h3 className="wow color-font wow fadeIn" data-wow-delay=".5s">
                 Our Services.
               </h3>

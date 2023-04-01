@@ -14,17 +14,19 @@ const SContactForm = ({ noLine }) => {
   }
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
-    <section className="contact-sec section-padding position-re">
+    <section className="contact-sec section-padding position-re" id="contact-us">
       <div className="container">
+      <div className="sec-head">
+          <h3 className="wow color-font wow fadeIn" data-wow-delay=".5s">
+            Contact Us
+          </h3>
+      </div>
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
-              <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Contact Us
-              </h6>
-              <h3 className="wow color-font">
+              <h4 className="wow color-font">
                 Let’s Get in Touch And Make Magic Together.
-              </h3>
+              </h4>
             </div>
           </div>
         </div>

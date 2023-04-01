@@ -5,13 +5,14 @@ import CurlyHeader from "./curly-header";
 import { useState } from "react";
 import CustomButton from "./custom-button";
 
-
+const Letters = "Multiple pages, channels, blogs, podcasts, influencers, stars."
 const CustomDesign = (props) => {
 
     const { inViewport,forwardedRef } = props;
     const [showContent,setShowContent] = useState(false)
+    const letters = Letters.split("")
 
-    console.log(inViewport)
+    console.log(inViewport,)
     return (
         <section className="feat sub-bg section-padding" ref={forwardedRef}>
             <div className="container">
@@ -110,51 +111,103 @@ const CustomDesign = (props) => {
                                 <span>{showContent?"Reset":"Start"}</span>
                             </button> */}
                             <CustomButton onClick={()=>setShowContent((prev)=>!prev)} title={showContent?"Reset":"Start"} />
-
                         </div>
                     </div>
                 </div>
                 
-                {showContent && <div>
+                {showContent ? <div>
                     <div className="row justify-content-center" style={{marginTop:"40px", marginLeft:"10px",marginBottom:"10px"}}>
-                        <div>
+                    <MovingText
+                        type="slideInFromBottom"
+                        duration="500ms"
+                        delay="0s"
+                        direction="normal"
+                        timing="ease"
+                        iteration="1"
+                        fillMode="none">
+                        <div style={{ marginLeft:"-10px"}}>
                             <Arrow degree={'rotate(90deg)'} />
                         </div>
-                    </div>
-                    <div className="row" >
-                        <div className="col-lg-12 col-md-12 md-mb10">
-                            <div className="item wow fadeI text-center">
-                                <h5 className="wow words chars splitting" data-splitting>
-                                    Multiple pages,channels,blogs,podcasts,influencers,stars.
-                                </h5>
-                            </div>
-                        </div>                    
-                    </div>
-                    <div className="row" style={{justifyContent:"space-around",marginTop:"40px"}}>
-                        <div>
-                            <Arrow degree={'rotate(90deg)'} />
-                        </div>
-                        <div>
-                            <Arrow degree={'rotate(90deg)'} />
-                        </div>
+                    </MovingText>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-lg-12 col-md-12 md-mb20">
+                        <div className="col-lg-12 col-md-10">
+                            <div className="sec-head  text-center">
+                                <MovingText
+                                    type="slideInFromBottom"
+                                    duration="3000ms"
+                                    delay="0s"
+                                    direction="normal"
+                                    timing="ease-in"
+                                    iteration="1"
+                                    fillMode="none">
+                                    <h4>{Letters}</h4>
+                                </MovingText>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mb-30" style={{justifyContent:"space-around"}}>
+                        <MovingText
+                            type="slideInFromBottom"
+                            duration="8000ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease-in"
+                            iteration="1"
+                            fillMode="none">
+                                <div>
+                                    <Arrow degree={'rotate(90deg)'} />
+                                </div>
+                        </MovingText>
+                        
+                        <MovingText
+                            type="slideInFromBottom"
+                            duration="8000ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease-in"
+                            iteration="1"
+                            fillMode="none">
+                                <div>
+                                    <Arrow degree={'rotate(90deg)'} />
+                                </div>
+                        </MovingText>
+                    </div>
+                    <div className="row justify-content-center">
+                        <div className="col-lg-12 col-md-12 md-mb20 mb-30">
                             <div className="item wow fadeI text-center">
-                                <h5 className="wow words chars splitting" data-splitting>
-                                        Hundred of millions of people consuming.
-                                </h5>
+                                <MovingText
+                                    type="slideInFromBottom"
+                                    duration="10000ms"
+                                    delay="0s"
+                                    direction="normal"
+                                    timing="ease-in"
+                                    iteration="1"
+                                    fillMode="none">
+                                    <h5 className="wow words chars splitting" data-splitting>
+                                            Hundred of millions of people consuming.
+                                    </h5>
+                                </MovingText>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-12 col-md-12 md-mb20">
                         <div className="item wow fadeI text-center">
-                            <p className="wow words chars splitting" data-splitting>
-                                Not posible anywhere else what we deliver.
-                            </p>
+                            <MovingText
+                                type="slideInFromBottom"
+                                duration="12000ms"
+                                delay="0s"
+                                direction="normal"
+                                timing="ease-in"
+                                iteration="1"
+                                fillMode="none">
+                                <p className="wow words chars splitting" data-splitting>
+                                    Not posible anywhere else what we deliver.
+                                </p>
+                            </MovingText>
                         </div>
                     </div>
-                </div>}
+                </div>:null}
             </div>
         </section>
     )

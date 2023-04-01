@@ -15,6 +15,7 @@ import Services3 from "../components/Services3/services3";
 import Services from "../components/Services/services";
  import Team2 from "../components/Team2/team2";
 import CustomDesign from "../components/Custom-Design/custom-design";
+import SContactForm from "../components/s-contact-form/s-contact-form";
 
 import handleViewport from 'react-in-viewport';
 
@@ -57,6 +58,7 @@ const Homepage5 = () => {
       <Blogs4 />
       <Team2 /> */}
       <CallToAction />
+      <SContactForm />
       <Footer />
     </DarkTheme>
   );

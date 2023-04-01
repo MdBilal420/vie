@@ -18,7 +18,10 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <p>95, Ganpatrao Kadam Marg, Opposite
+                      Peninsula Business Park, Lower Parel
+                      West, Mumbai, Maharashtra 400013
+                    </p>
                   </div>
                 </li>
                 <li>
@@ -104,7 +107,7 @@ const Footer = ({ hideBGCOLOR }) => {
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src={appData.lightLogo} alt="" />
+                <img src={appData.appLogo} alt="" style={{scale:"2.5",marginLeft:"25px"}}/>
               </div>
               <div className="social">
                 <a href="#0">
@@ -120,7 +123,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <i className="fab fa-youtube"></i>
                 </a>
               </div>
-              <div className="copy-right">
+              {/* <div className="copy-right">
                 <p>
                   © 2022, Vie Template. Made with passion by
                   <Link
@@ -131,7 +134,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   </Link>
                   .
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

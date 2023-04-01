@@ -30,10 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/services/increase-your-sales-right-away": [
+    "/services/become-household-name": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services/increase-your-sales-right-away.js"
+      "static/chunks/pages/services/become-household-name.js"
+    ],
+    "/services/brand-awareness": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/services/brand-awareness.js"
+    ],
+    "/services/reversing-bad-publicity": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/services/reversing-bad-publicity.js"
     ]
   },
   "ampFirstPages": []

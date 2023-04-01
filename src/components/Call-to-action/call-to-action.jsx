@@ -5,6 +5,7 @@ import Link from 'next/link'
 const CallToAction = ({img}) => {
     return (
       <section
+      id="about-us"
         className="call-action section-padding sub-bg bg-img"
         style={{ backgroundImage: `url(${img ? img : "/img/patrn.svg"})` }}
       >

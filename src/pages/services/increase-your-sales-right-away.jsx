@@ -33,7 +33,7 @@ const ProjectDetails2Dark = () => {
   }, [navbarRef]);
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} />
+      <Navbar1 nr={navbarRef} lr={logoRef} />
       <div className="wrapper">
         {/* <ProjectDetails2Header projectHeaderData={ProjectDate} /> */}
         <PageHeader
