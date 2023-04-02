@@ -20,7 +20,6 @@ const Services3 = () => {
   }, []);
   return (
     <section id="our-services" className="feat sub-bg section-padding">
-      <div className="line bottom left"></div>
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-10">
