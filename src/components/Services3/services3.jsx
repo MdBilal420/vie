@@ -48,7 +48,8 @@ const Services3 = () => {
           </div> */}
           {
             service===4? data.services.map((it,idx)=>(
-              <ServiceIntro 
+              <ServiceIntro
+                key={idx}
                 title={it.title}
                 content={it.content}
                 icon={<FaBullhorn />}
@@ -109,8 +110,9 @@ const Services3 = () => {
           </div> */}
           {service!==4 ? <div className="col-lg-9 col-md-6 items">
             <div className="item wow fadeIn valign" data-wow-delay=".3s" style={{display:"flex",flexWrap:"wrap"}}>
-                {data.serviceDetails[service].map((it)=>(
-                  <Details 
+                {data.serviceDetails[service].map((it,idx)=>(
+                  <Details
+                    key={idx} 
                     title={it.title}
                     content={it.content}
                   />
