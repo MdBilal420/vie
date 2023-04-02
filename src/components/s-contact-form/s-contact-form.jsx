@@ -45,7 +45,7 @@ const SContactForm = ({ noLine }) => {
                   // show message
 
                   messageRef.current.innerText =
-                    "Your Message has been successfully sent. I will contact you soon.";
+                    "Your Message has been successfully sent. We will contact you soon.";
                   // Reset the values
                   values.name = "";
                   values.email = "";
@@ -53,7 +53,7 @@ const SContactForm = ({ noLine }) => {
                   // clear message
                   setTimeout(() => {
                     messageRef.current.innerText = "";
-                  }, 2000);
+                  }, 4000);
                 }}
               >
                 {({ errors, touched }) => (

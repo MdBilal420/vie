@@ -1331,6 +1331,15 @@ span:hover {
   opacity: 0;
 }
 
+/* @media (min-width:576px) {
+  .mouse-cursor{
+    visibility:hidden;
+  }
+  .cursor-outer{
+    visibility:hidden;
+  }
+} */
+
 /* ====================== [ End Cursor Style ] ====================== */
 /* ====================== [ Start progress-wrap ] ====================== */
 .progress-wrap {

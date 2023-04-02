@@ -1,17 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import cardMouseEffect from "../../common/cardMouseEffect";
 import { IoIosPeople } from "react-icons/io";
 import { FaSortAmountUp } from "react-icons/fa";
 import { FaBullhorn } from "react-icons/fa";
 import { IoMdReverseCamera } from 'react-icons/io';
+//import Typewriter from "typewriter-effect";
+import { data } from "./data";
+import Details from "./details";
+import ServiceIntro from "./service-into";
+
 
 const Services3 = () => {
+
+  const [service,setService] = useState(4)
+
   React.useEffect(() => {
     cardMouseEffect(document.querySelectorAll(".feat .items"));
   }, []);
   return (
     <section id="our-services" className="feat sub-bg section-padding">
+      <div className="line bottom left"></div>
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-10">
@@ -23,10 +32,9 @@ const Services3 = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-3 col-md-6 items md-mb30">
+          {/* <div className="col-lg-3 col-md-6 items md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                {/* <i className="ion-ios-airplane"></i> */}
                 <FaBullhorn />
               </span>
               <h5>Brand Awareness</h5>
@@ -34,17 +42,31 @@ const Services3 = () => {
                 Implant your brand name in the brain of hundreds of millions of consumers.
               </p>
               <Link href="/services/brand-awareness">
-              {/* <a className="butn bord curve mt-30">
-                  <span>Read More</span>
-                </a> */}
                 <a className="simple-btn mt-30">Read More</a>
               </Link>
             </div>
-          </div>
-          <div className="col-lg-3 col-md-6 items active md-mb30">
+          </div> */}
+          {
+            service===4? data.services.map((it,idx)=>(
+              <ServiceIntro 
+                title={it.title}
+                content={it.content}
+                icon={<FaBullhorn />}
+                idx={idx}
+                service={service}
+                setService={setService}
+              />
+            )):<ServiceIntro 
+                title={data.services[service].title}
+                content={data.services[service].content}
+                idx={service}
+                service={service}
+                setService={setService}
+              />
+          }
+          {/* <div className="col-lg-3 col-md-6 items active md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                {/* <i className="ion-ios-bolt-outline"></i> */}
                 <FaSortAmountUp />
               </span>
               <h5>Increase Your Sales Right Away</h5>
@@ -60,7 +82,6 @@ const Services3 = () => {
           <div className="col-lg-3 col-md-6 items sm-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                {/* <i className="ion-cube"></i> */}
                 <IoIosPeople />
               </span>
               <h5>Become HouseHold Name</h5>
@@ -75,7 +96,6 @@ const Services3 = () => {
           <div className="col-lg-3 col-md-6 items">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                {/* <i className="ion-ios-color-wand"></i> */}
                 <IoMdReverseCamera />
               </span>
               <h5>Reversing Bad Publicity</h5>
@@ -86,7 +106,17 @@ const Services3 = () => {
               <a className="simple-btn mt-30">Read More</a>
               </Link>
             </div>
-          </div>
+          </div> */}
+          {service!==4 ? <div className="col-lg-9 col-md-6 items">
+            <div className="item wow fadeIn valign" data-wow-delay=".3s" style={{display:"flex",flexWrap:"wrap"}}>
+                {data.serviceDetails[service].map((it)=>(
+                  <Details 
+                    title={it.title}
+                    content={it.content}
+                  />
+                ))}
+            </div>
+          </div>:null}
         </div>
       </div>
     </section>

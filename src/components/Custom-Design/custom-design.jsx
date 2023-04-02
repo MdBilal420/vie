@@ -209,6 +209,7 @@ const CustomDesign = (props) => {
                     </div>
                 </div>:null}
             </div>
+            <div className="line bottom left"></div>
         </section>
     )
 }
