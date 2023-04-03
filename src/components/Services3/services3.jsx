@@ -31,7 +31,7 @@ const Services3 = () => {
           </div>
         </div>
         <div className="row">
-          {/* <div className="col-lg-3 col-md-6 items md-mb30">
+          <div className="col-lg-3 col-md-6 items md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
                 <FaBullhorn />
@@ -44,8 +44,8 @@ const Services3 = () => {
                 <a className="simple-btn mt-30">Read More</a>
               </Link>
             </div>
-          </div> */}
-          {
+          </div>
+          {/* {
             service===4? data.services.map((it,idx)=>(
               <ServiceIntro
                 key={idx}
@@ -63,8 +63,8 @@ const Services3 = () => {
                 service={service}
                 setService={setService}
               />
-          }
-          {/* <div className="col-lg-3 col-md-6 items active md-mb30">
+          } */}
+          <div className="col-lg-3 col-md-6 items active md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
                 <FaSortAmountUp />
@@ -106,8 +106,8 @@ const Services3 = () => {
               <a className="simple-btn mt-30">Read More</a>
               </Link>
             </div>
-          </div> */}
-          {service!==4 ? <div className="col-lg-9 col-md-6 items">
+          </div>
+          {/* {service!==4 ? <div className="col-lg-9 col-md-6 items">
             <div className="item wow fadeIn valign" data-wow-delay=".3s" style={{display:"flex",flexWrap:"wrap"}}>
                 {data.serviceDetails[service].map((it,idx)=>(
                   <Details
@@ -117,7 +117,7 @@ const Services3 = () => {
                   />
                 ))}
             </div>
-          </div>:null}
+          </div>:null} */}
         </div>
       </div>
     </section>

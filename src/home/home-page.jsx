@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 //import Navbar from "../../components/Navbar/navbar";
 import Navbar from "../components/Navbar/navbar"
 import FullTestimonials from "../components/Full-testimonials/full-testimonials";
@@ -26,6 +26,9 @@ const Homepage5 = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
+  const customDesignRef = React.useRef(null);
+  const [showContent,setShowContent] = useState(false)
+
   React.useEffect(() => {
     var navbar = navbarRef.current;
     if (window.pageYOffset > 300) {
@@ -43,23 +46,27 @@ const Homepage5 = () => {
   }, [navbarRef]);
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} />
-      <Intro4 />
-      {/* <AboutUs3 />
+      <Navbar nr={navbarRef} lr={logoRef}  />
+      <Intro4 
+        cr={customDesignRef}
+        showContent={showContent}
+        setShowContent={setShowContent}
+      />
+      {showContent ? <><ViewportBlock cr={customDesignRef} onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')} />
+      <Services3 />
+      <CallToAction />
+      <SContactForm />
+      <Footer /> </>: null}
+{/* <AboutUs3 />
       <Works3 /> */}
       {/* <CustomDesign /> */}
-      <ViewportBlock onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')} />
+      
       {/* <Services /> */}
       {/* <MinimalArea2 /> */}
-      <Services3 />
-
       {/* <FullTestimonials classText="pb-0" /> */}
       {/* <Team />
       <Blogs4 />
       <Team2 /> */}
-      <CallToAction />
-      <SContactForm />
-      <Footer />
     </DarkTheme>
   );
 };

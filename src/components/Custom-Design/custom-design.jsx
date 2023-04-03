@@ -1,33 +1,54 @@
 import Arrow from "./Arrow/arrow"
 // import Logo from "./Logo/logo"
 import MovingText from 'react-moving-text'
-import CurlyHeader from "./curly-header";
-import { useState } from "react";
-import CustomButton from "./custom-button";
-
+// import CurlyHeader from "./curly-header";
+// import { useState } from "react";
+// import CustomButton from "./custom-button";
+import AnimatedText from 'react-animated-text-content';
 const Letters = "Multiple pages, channels, blogs, podcasts, influencers, stars."
 const CustomDesign = (props) => {
 
-    const { inViewport,forwardedRef } = props;
-    const [showContent,setShowContent] = useState(false)
-    const letters = Letters.split("")
+    const { inViewport,forwardedRef,cr } = props;
+    // const [showContent,setShowContent] = useState(false)
+    //const letters = Letters.split("")
 
-    console.log(inViewport,)
     return (
-        <section className="feat sub-bg section-padding" ref={forwardedRef}>
+        <section className="feat sub-bg section-padding" ref={cr}>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-10 col-md-10">
                         <div className="sec-head  text-center">
                             {/* <CurlyHeader /> */}
-                            <h3><span className="color-font">International Corporations and Brands</span></h3>
+                            <MovingText
+                                type="bounce"
+                                duration="1000ms"
+                                delay="0s"
+                                direction="normal"
+                                timing="ease"
+                                iteration="2"
+                                fillMode="none">
+                                <h3><span className="color-font">International Corporations and Brands</span></h3>
+                            </MovingText>
+                            {/* <AnimatedText
+                                type='words'
+                                interval={0.04}
+                                duration={0.8}
+                                animation={{
+                                y: '100px',
+                                ease: 'ease',
+                                }}
+                                className="color-font"
+                            >
+                                International Corporations and Brands
+                            </AnimatedText> */}
+                            
                         </div>
                     </div>
                 </div>
-                {inViewport && <MovingText
+                <MovingText
                     type="slideInFromBottom"
                     duration="1000ms"
-                    delay="0s"
+                    delay="1s"
                     direction="normal"
                     timing="ease"
                     iteration="1"
@@ -44,7 +65,7 @@ const CustomDesign = (props) => {
                             <Arrow degree={'rotate(50deg)'} />
                         </div>        
                     </div>
-                </MovingText>}
+                </MovingText>
                 <div className="row justify-content-center" style={{marginTop:"40px"}}>
                     <div
                     className="col-lg-6"
@@ -53,7 +74,7 @@ const CustomDesign = (props) => {
                             <MovingText
                                 type="slideInFromLeft"
                                 duration="2000ms"
-                                delay="0s"
+                                delay="1s"
                                 direction="normal"
                                 timing="ease"
                                 iteration="1"
@@ -68,7 +89,7 @@ const CustomDesign = (props) => {
                             <MovingText
                                 type="slideInFromBottom"
                                 duration="2000ms"
-                                delay="0s"
+                                delay="1s"
                                 direction="normal"
                                 timing="ease"
                                 iteration="1"
@@ -83,7 +104,7 @@ const CustomDesign = (props) => {
                             <MovingText
                                 type="slideInFromLeft"
                                 duration="2000ms"
-                                delay="0s"
+                                delay="1s"
                                 direction="normal"
                                 timing="ease"
                                 iteration="1"
@@ -101,21 +122,13 @@ const CustomDesign = (props) => {
                     {/* <Logo /> */}
                     <div className="col-lg-6 col-md-6 md-mb20" style={{marginRight:"20px"}}>
                         <div className="item wow fadeI text-center mt-30 mb-30">
-                            {/* <button className="butn mt-30 mb-30"
-                                style={{borderRadius:"50%",width:"100px",height:"100px",background:"black",
-                                borderWidth:"2px",
-                                color:"white",
-                                borderColor:"linear-gradient(to right, #12c2e9, #c471ed)"}}
-                                onClick={()=>setShowContent((prev)=>!prev)}
-                            >
-                                <span>{showContent?"Reset":"Start"}</span>
-                            </button> */}
-                            <CustomButton onClick={()=>setShowContent((prev)=>!prev)} title={showContent?"Reset":"Start"} />
+                            {/* <CustomButton onClick={()=>setShowContent((prev)=>!prev)} title={showContent?"Reset":"Start"} /> */}
+                            <img src="/img/w-logo.png"/>
                         </div>
                     </div>
                 </div>
                 
-                {showContent ? <div>
+                <div>
                     <div className="row justify-content-center" style={{marginTop:"40px", marginLeft:"10px",marginBottom:"10px"}}>
                     <MovingText
                         type="slideInFromBottom"
@@ -207,7 +220,7 @@ const CustomDesign = (props) => {
                             </MovingText>
                         </div>
                     </div>
-                </div>:null}
+                </div>
             </div>
             <div className="line bottom left"></div>
         </section>

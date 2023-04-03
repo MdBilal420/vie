@@ -1,10 +1,6 @@
 import styled from "styled-components"
-import Intro6 from "../Intro6/intro6"
 
-
-const CustomButton = ({onClick,title}) => {
-
-    const Button = styled.button`
+const Button = styled.button`
         border-radius:50%;
         width:100px;
         height:100px;
@@ -26,8 +22,11 @@ const CustomButton = ({onClick,title}) => {
       }
     `;
 
+
+const CustomButton = ({onClick,title}) => {
+
     return (
-        <Button className="button" onClick={onClick}>
+        <Button onClick={onClick}>
             <span style={{fontSize:"20px",fontFamily:"cursive"}}>{title}</span>
         </Button>
     )
