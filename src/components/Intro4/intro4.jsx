@@ -43,12 +43,12 @@ const Intro4 = (props) => {
               timing="ease"
               iteration="5"
               fillMode="none">
-              <h2><span className="color-font">Modern Media Conglomerate.</span></h2>
+              <h4><span className="color-font" style={{marginBottom:"50px"}} >Modern Media Conglomerate.</span></h4>
             </MovingText>
             <CustomButton className="custom-button" 
               //onClick={()=>setShowContent((prev)=>!prev)} 
               onClick={handleClick}
-            title={showContent?"Reset":"Start"} style={{zIndex:9}}/>
+            title={showContent?"Reset":"Start"} style={{marginTop:"20px"}}/>
             </div>
           </div>
         </div>

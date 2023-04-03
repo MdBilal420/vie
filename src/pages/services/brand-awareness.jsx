@@ -45,8 +45,7 @@ const ProjectDetails2Dark = () => {
         <ProjectDescription 
           id="01"
           title="Influencer marketing"
-          content="We will choose one of this word
-          Influencers, Sport stars, Movie stars with hudreds of millions of followers and strong reputation on their
+          content="Influencers, Sport stars, Movie stars with hudreds of millions of followers and strong reputation on their
           social media platforms like Instagram YouTube Twitter will talk about your brand and leverage their
           credibility to create awareness among large number of population in total reaching 2 billion users ." 
         />

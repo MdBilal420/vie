@@ -72,7 +72,7 @@ const Services3 = () => {
               <h5>Increase Your Sales Right Away</h5>
               <p>
               We can 2x-3x-10x your revenue and then you have completely new company on
-              Your hands.
+              your hands.
               </p>
               <Link href="/services/increase-your-sales-right-away">
               <a className="simple-btn mt-30">Read More</a>
@@ -86,7 +86,7 @@ const Services3 = () => {
               </span>
               <h5>Become HouseHold Name</h5>
               <p>
-                It guarantees that you sustain awareness and sales for your brandin coming years
+                It guarantees that you sustain awareness and sales for your brand in coming years
               </p>
               <Link href="/services/become-household-name">
               <a className="simple-btn mt-30">Read More</a>
