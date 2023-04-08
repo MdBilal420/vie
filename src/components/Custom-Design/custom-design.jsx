@@ -118,7 +118,7 @@ const CustomDesign = (props) => {
                 <div className="row justify-content-center" style={{ marginRight: "10px", cursor: "pointer" }}
                     onClick={handleClick}
                 >
-                    <AiOutlineDownCircle size={80} />
+                    <AiOutlineDownCircle size={60} />
                 </div>
                 <div className="row justify-content-center">
                     {/* <Logo /> */}
