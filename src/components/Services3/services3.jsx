@@ -11,7 +11,7 @@ import Details from "./details";
 import ServiceIntro from "./service-into";
 
 
-const Services3 = () => {
+const Services3 = ({sr}) => {
 
   const [service,setService] = useState(4)
 
@@ -19,7 +19,7 @@ const Services3 = () => {
     cardMouseEffect(document.querySelectorAll(".feat .items"));
   }, []);
   return (
-    <section id="our-services" className="feat sub-bg section-padding">
+    <section id="our-services" className="feat sub-bg section-padding" ref={sr}>
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-10">

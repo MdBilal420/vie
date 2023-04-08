@@ -6,17 +6,25 @@ import MovingText from 'react-moving-text'
 // import CustomButton from "./custom-button";
 import AnimatedText from 'react-animated-text-content';
 const Letters = "Multiple pages, channels, blogs, podcasts, influencers, stars."
-const CustomDesign = (props) => {
+import { AiOutlineDownCircle } from "react-icons/ai";
 
-    const { inViewport,forwardedRef,cr } = props;
+const CustomDesign = (props) => {
+    
+    const { inViewport,forwardedRef,cr ,sr} = props;
     // const [showContent,setShowContent] = useState(false)
     //const letters = Letters.split("")
+
+    const handleClick = () => { 
+        setTimeout(()=>{
+            sr.current?.scrollIntoView({behavior: 'smooth'})
+        },500)    
+      }
 
     return (
         <section className="feat sub-bg section-padding" ref={cr}>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-lg-10 col-md-10">
+                    <div className="col-lg-10 col-md-6">
                         <div className="sec-head  text-center">
                             {/* <CurlyHeader /> */}
                             <MovingText
@@ -29,19 +37,7 @@ const CustomDesign = (props) => {
                                 fillMode="none">
                                 <h3><span className="color-font">International Corporations and Brands</span></h3>
                             </MovingText>
-                            {/* <AnimatedText
-                                type='words'
-                                interval={0.04}
-                                duration={0.8}
-                                animation={{
-                                y: '100px',
-                                ease: 'ease',
-                                }}
-                                className="color-font"
-                            >
-                                International Corporations and Brands
-                            </AnimatedText> */}
-                            
+                                                        
                         </div>
                     </div>
                 </div>
@@ -117,6 +113,12 @@ const CustomDesign = (props) => {
                                 </div>
                             </MovingText>                      
                     </div>
+                    
+                </div>
+                <div className="row justify-content-center" style={{ marginRight: "10px", cursor: "pointer" }}
+                    onClick={handleClick}
+                >
+                    <AiOutlineDownCircle size={80} />
                 </div>
                 <div className="row justify-content-center">
                     {/* <Logo /> */}

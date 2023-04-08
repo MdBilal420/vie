@@ -8,7 +8,7 @@ const Footer = ({ hideBGCOLOR }) => {
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
             <div className="item md-mb50">
               <div className="title">
                 <h5>Contact Us</h5>
@@ -28,7 +28,9 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>communications@influencemediacorp.com</p>
+                    <div className="text-wrap">
+                    <p>communications@ influencemediacorp.com</p>
+                    </div>
                   </div>
                 </li>
                 <li>
@@ -104,7 +106,7 @@ const Footer = ({ hideBGCOLOR }) => {
               </ul>
             </div>
           </div> */}
-          <div className="col-lg-4">
+          <div className="col-lg-6">
             <div className="item">
               <div className="logo">
                 <img src={appData.appLogo} alt="" style={{scale:"2.5",marginLeft:"25px"}}/>

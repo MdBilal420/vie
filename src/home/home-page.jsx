@@ -27,6 +27,8 @@ const Homepage5 = () => {
   const logoRef = React.useRef(null);
 
   const customDesignRef = React.useRef(null);
+  const serviceRef = React.useRef(null);
+
   const [showContent,setShowContent] = useState(false)
 
   React.useEffect(() => {
@@ -52,21 +54,14 @@ const Homepage5 = () => {
         showContent={showContent}
         setShowContent={setShowContent}
       />
-      {showContent ? <><ViewportBlock cr={customDesignRef} onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')} />
-      <Services3 />
+      {showContent ? <><ViewportBlock cr={customDesignRef}
+        sr={serviceRef}
+        onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')} />
+      <Services3 sr={serviceRef} />
       <CallToAction />
       <SContactForm />
       <Footer /> </>: null}
-{/* <AboutUs3 />
-      <Works3 /> */}
-      {/* <CustomDesign /> */}
       
-      {/* <Services /> */}
-      {/* <MinimalArea2 /> */}
-      {/* <FullTestimonials classText="pb-0" /> */}
-      {/* <Team />
-      <Blogs4 />
-      <Team2 /> */}
     </DarkTheme>
   );
 };
