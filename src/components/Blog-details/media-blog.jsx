@@ -87,7 +87,7 @@ const MediaBlog = ({ theme }) => {
                       <div className="quotes text-center">
                         <p>
                             People share, read, and generally engage more with any type of content when
-                            it's surfaced through friends and people they know and trust.
+                            it&apos;s surfaced through friends and people they know and trust.
                         </p>
                         <p>
                         The medium is the message. 
