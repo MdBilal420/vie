@@ -31,15 +31,11 @@ const BlogDetails = ({ theme }) => {
                   <div className="col-lg-10">
                     <div className="cont">
                       <h4 className="extra-title">
-                        Priorities that will pop up in any particular month.
+                        Introduction
                       </h4>
                       <div className="spacial">
                         <p>
-                          Never ever think of giving up. Winners never quit and
-                          quitters never win. Take all negative words out of
-                          your mental dictionary and focus on the solutions with
-                          utmost conviction and patience. The battle is never
-                          lost until you’ve abandon your vision.
+                        In the age of the internet, media has evolved dramatically. Traditional media, such as television, radio, and newspapers, has been around for decades and has been the go-to source of information. On the other hand, modern media, such as social media, blogs, and online news outlets, have emerged as a new player in the media landscape. In this blog, we will compare modern and traditional media, exploring their advantages and disadvantages, and help you choose which one is better suited for you.
                         </p>
                       </div>
                       <p>
