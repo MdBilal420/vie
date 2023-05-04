@@ -69,7 +69,7 @@ const Conference = () => {
                 }}
               >
                 {pageLoaded &&
-                  conferenceData.map((item, index) => (
+                  conferenceData.slice(0,4).map((item, index) => (
                     <SwiperSlide className="swiper-slide" key={item.id}>
                       <div
                         className="content wow noraidus fadeInUp"

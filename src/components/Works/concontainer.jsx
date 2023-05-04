@@ -1,4 +1,5 @@
 import Conference from "./conference1"
+import Link from "next/link";
 
 
 const ConContainer = () => {
@@ -23,6 +24,20 @@ const ConContainer = () => {
                 </div>
             </div>
             <Conference />
+            <div className="col-12">
+                <div className="text-center">
+                    <Link
+                     href="works/conference-details"
+                    >
+                        <button
+                            type="submit"
+                            className="nb butn bord curve mt-30"
+                        >
+                            <span>See More</span>
+                        </button>
+                    </Link>
+                </div>
+            </div>
         </section>
     )
 }
