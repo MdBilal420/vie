@@ -92,18 +92,7 @@ const Navbar = ({ lr, nr, theme }) => {
               {/* </Link> */}
             </li>
 
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="about-us"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                About
-              </Link>
-            </li>
+            
 
             <li className="nav-item">
               <Link
@@ -115,6 +104,32 @@ const Navbar = ({ lr, nr, theme }) => {
                 duration={500}
               >
                 Services
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="our-blogs"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Blogs
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="about-us"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                About
               </Link>
             </li>
 

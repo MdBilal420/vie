@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "image": "/img/conference/1.jpg"
+    },
+    {
+      "id": 2,
+      "image": "/img/conference/2.jpg"
+    },
+    {
+      "id": 3,
+      "image": "/img/conference/3.jpg"
+    },
+    {
+      "id": 4,
+      "image": "/img/conference/4.jpg"
+    },
+    {
+      "id": 5,
+      "image": "/img/conference/5.jpg"
+    },
+    {
+        "id": 6,
+        "image": "/img/conference/6.jpg"
+      }  ,
+      {
+        "id": 7,
+        "image": "/img/conference/7.jpg"
+      },
+      {
+        "id": 8,
+        "image": "/img/conference/8.jpg"
+      },
+      {
+        "id": 9,
+        "image": "/img/conference/9.jpg"
+      }
+  ]
+  
