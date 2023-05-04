@@ -17,7 +17,7 @@ const ConferenceStyle1 = () => {
       <div className="container">
         <div className="row lg-space">
             {conferenceData.map((it, idx) => (
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-4 col-md-6" key={it.id}>
                 <div className="item">
                     <a>
                     <div
