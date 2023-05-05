@@ -27,7 +27,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="cont">
                     <h6>Email Us</h6>
                     <div className="text-wrap">
-                    <p>communications@ influencemediacorp.com</p>
+                    <p>communications@influencemediacorp.com</p>
                     </div>
                   </div>
                 </li>

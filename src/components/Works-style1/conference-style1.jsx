@@ -16,7 +16,7 @@ const ConferenceStyle1 = () => {
       <h2 style={{display: 'none'}}>&nbsp;</h2>
       <div className="container">
         <div className="row lg-space">
-            {conferenceData.slice(0,9).map((it, idx) => (
+            {conferenceData.slice(0,18).map((it, idx) => (
                 <div className="col-lg-4 col-md-6" key={it.id}>
                 <div className="item">
                     <a>
