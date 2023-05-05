@@ -17,7 +17,7 @@ const Conference = () => {
 
   console.log("size", width)
   
-  const arr = width >480 ? conferenceData.slice(0,4) : conferenceData.slice(9,13)
+  const arr = width >480 ? conferenceData.slice(0,4) : conferenceData.slice(18,22)
 
   const [pageLoaded, setPageLoaded] = React.useState(false);
   React.useEffect(() => {
