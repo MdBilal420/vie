@@ -2,8 +2,13 @@
 import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
+import useWindowSize from "../../hooks/use-window-size";
 
 const Footer = ({ hideBGCOLOR }) => {
+
+  const { width } = useWindowSize()
+  const w = width
+
   return (
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
       <div className="container">
@@ -26,8 +31,8 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <div className="text-wrap">
-                    <p>communications@ influencemediacorp.com</p>
+                    <div className="text-wrap" >
+                    <p  style={{fontSize:w>380?"16px":"13px"}}>communications@influencemediacorp.com</p>
                     </div>
                   </div>
                 </li>
