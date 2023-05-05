@@ -7,11 +7,18 @@ import Link from "next/link";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import useWindowSize from "../../hooks/use-window-size";
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const Conference = () => {
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
+  const {width} = useWindowSize();
+
+  console.log("size", width)
+  
+  const arr = width >480 ? conferenceData.slice(0,4) : conferenceData.slice(9,13)
+
   const [pageLoaded, setPageLoaded] = React.useState(false);
   React.useEffect(() => {
     setPageLoaded(true);
@@ -69,7 +76,7 @@ const Conference = () => {
                 }}
               >
                 {pageLoaded &&
-                  conferenceData.slice(0,4).map((item, index) => (
+                  arr.map((item, index) => (
                     <SwiperSlide className="swiper-slide" key={item.id}>
                       <div
                         className="content wow noraidus fadeInUp"
