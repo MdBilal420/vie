@@ -18,9 +18,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Officeal Address</h6>
-                    <p>95, Ganpatrao Kadam Marg, Opposite
-                      Peninsula Business Park, Lower Parel
-                      West, Mumbai, Maharashtra 400013
+                    <p>Inspire BKC, Mumbai, Maharashtra 400013
                     </p>
                   </div>
                 </li>
