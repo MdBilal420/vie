@@ -28,7 +28,7 @@ const Navbar = ({ lr, nr, theme,showContent }) => {
           </a>
         </Link>
 
-        <button
+        {showContent?<button
           className="navbar-toggler"
           type="button"
           onClick={handleMobileDropdown}
@@ -41,7 +41,7 @@ const Navbar = ({ lr, nr, theme,showContent }) => {
           <span className="icon-bar">
             <i className="fas fa-bars"></i>
           </span>
-        </button>
+        </button>:null}
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           {showContent?<ul className="navbar-nav ml-auto">

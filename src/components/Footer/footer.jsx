@@ -32,7 +32,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="cont">
                     <h6>Email Us</h6>
                     <div className="text-wrap" >
-                    <p  style={{fontSize:w>380?"16px":"13px"}}>communications@influencemediacorp.com</p>
+                    <p  style={{fontSize:w>400?"16px":"13px"}}>communications@influencemediacorp.com</p>
                     </div>
                   </div>
                 </li>
