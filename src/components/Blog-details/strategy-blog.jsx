@@ -35,7 +35,7 @@ const StrategyBlog = ({ theme }) => {
                       </h4>
                       <div className="spacial">
                         <p>
-                            In today's digital age, a robust media strategy is crucial for businesses of all sizes.
+                            In today&apos;s digital age, a robust media strategy is crucial for businesses of all sizes.
                             As traditional media channels evolve and modern media takes the center stage, it becomes imperative for companies to adapt
                             and harness the power of these platforms to connect with their target audience. Building a successful media strategy involves
                             careful planning, understanding the ever-changing landscape, and utilizing the right tools and techniques to drive brand awareness,
@@ -50,7 +50,7 @@ const StrategyBlog = ({ theme }) => {
                         <li >
                             <div className="spacial">
                             <p> Before diving into media strategy, it is essential to clearly define your business objectives.
-                            What do you hope to achieve through your media efforts? Whether it's increasing brand awareness, driving website traffic,
+                            What do you hope to achieve through your media efforts? Whether it&apos;s increasing brand awareness, driving website traffic,
                             generating leads, or enhancing customer engagement,
                             having well-defined goals will guide your media strategy and ensure alignment with your overall business objectives.
                             </p>
@@ -84,7 +84,7 @@ const StrategyBlog = ({ theme }) => {
                         <ul>
                             <li>
                             <div className="spacial">
-                            <p> With a plethora of media channels available, it's crucial to select the ones that align with your target audience and
+                            <p> With a plethora of media channels available, it&apos;s crucial to select the ones that align with your target audience and
                                 business goals. Social media platforms like Facebook, Instagram, Twitter, and LinkedIn offer vast opportunities for reaching and
                                 engaging with your audience. Additionally,
                                 consider other digital channels such as YouTube, podcasts, email marketing,

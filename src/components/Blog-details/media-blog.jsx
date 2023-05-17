@@ -102,7 +102,7 @@ const MediaBlog = ({ theme }) => {
                           The proliferation of smartphones, tablets, and social media platforms has transformed the way information is consumed.
                           Modern media offers immediacy and accessibility, enabling individuals to access news and entertainment anytime and anywhere.
                           The rise of digital platforms has also democratized content creation, allowing anyone with internet access to become a producer and share their perspectives.
-                          Furthermore, modern media's interactive nature fosters engagement and participation, promoting a sense of community and empowerment.
+                          Furthermore, modern media&apos;s interactive nature fosters engagement and participation, promoting a sense of community and empowerment.
                           With personalized recommendations and targeted advertisements, modern media caters to individual preferences, enhancing user experience.
                           As technology continues to advance, traditional media struggles to keep pace, making way for the dominance of modern media.
                         </p>

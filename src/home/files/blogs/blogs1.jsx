@@ -14,10 +14,12 @@ const Blogs1 = () => {
           </div>
         </div>
         <div className="row justify-content-center">
+          
           <div className="col-lg-6">
+            {/* blog1 */}
             <div className="item md-mb50 wow fadeInUp" data-wow-delay=".3s">
               <div className="img">
-                <img src="/img/blog/media1.jpg" alt="" />
+                <img src="/img/blog/media3.jpg" alt="" />
               </div>
               <div className="cont">
                 <div>
@@ -35,7 +37,7 @@ const Blogs1 = () => {
                   <h5>
                     <Link href="/blog-details/modern-media-vs-traditional-media">
                     <a >
-                    Modern Media vs. Traditional Media: Which One is Better
+                    Why modern media is taking over traditional media ?
                     </a>
                     </Link>
                   </h5>
@@ -50,10 +52,11 @@ const Blogs1 = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-lg-6">
+          {/* blog2 */}
+          <div className="col-lg-6">
             <div className="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
-              <div className="img">
-                <img src="/img/blog/2.jpg" alt="" />
+              <div className="img" >
+                <img src="/img/blog/st4.jpg" alt="" />
               </div>
               <div className="cont">
                 <div>
@@ -61,26 +64,26 @@ const Blogs1 = () => {
                     <Link href="/blog/blog-dark">
                     <a  className="date">
                       <span>
-                        <i>06</i> August
+                        <i>17</i> May
                       </span>
                     </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/blog/blog-dark">
+                    {/* <Link href="/blog/blog-dark">
                     <a  className="tag">
                       <span>WordPress</span>
                     </a>
-                    </Link>
+                    </Link> */}
                   </div>
                   <h5>
-                    <Link href="/blog-details/blog-details-dark">
+                    <Link href="/blog-details/successfull-media-strategy">
                     <a >
-                      How to use solid color combine with simple furnitures.
+                    How to Build a Successful Media Strategy for Your Business
                     </a>
                     </Link>
                   </h5>
                   <div className="btn-more">
-                    <Link href="/blog-details/blog-details-dark">
+                    <Link href="/blog-details/successfull-media-strategy">
                     <a className="simple-btn">
                       Read More
                     </a>
@@ -89,7 +92,7 @@ const Blogs1 = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
