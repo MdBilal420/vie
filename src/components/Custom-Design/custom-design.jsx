@@ -200,7 +200,7 @@ const CustomDesign = (props) => {
                                     iteration="1"
                                     fillMode="none">
                                     <h5 className="wow words chars splitting" data-splitting>
-                                            Hundred of millions of people consuming.
+                                            We give you access to 4 billion people across different platforms.
                                     </h5>
                                 </MovingText>
                             </div>
@@ -217,7 +217,7 @@ const CustomDesign = (props) => {
                                 iteration="1"
                                 fillMode="none">
                                 <p className="wow words chars splitting" data-splitting>
-                                    Not posible anywhere else what we deliver.
+                                No other company, nowhere else, can deliver what we do.
                                 </p>
                             </MovingText>
                         </div>
