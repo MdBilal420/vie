@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Influence Media</title>
-        <link rel="icon" href="/img/favico.ico" />
+        <link rel="icon" href="/img/fav.ico" />
       </Head>
       <Cursor />
       <LoadingScreen />
