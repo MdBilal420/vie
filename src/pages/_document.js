@@ -50,6 +50,8 @@ class MyDocument extends Document {
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/fav.ico" />
+          <link rel="icon" type="image/x-icon" href="/img/fav.ico" />
+
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
             rel="stylesheet"
