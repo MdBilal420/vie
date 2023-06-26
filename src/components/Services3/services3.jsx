@@ -9,6 +9,7 @@ import { IoMdReverseCamera } from 'react-icons/io';
 import { data } from "./data";
 import Details from "./details";
 import ServiceIntro from "./service-into";
+import Image from 'next/image'
 
 
 const Services3 = ({sr}) => {
@@ -34,7 +35,13 @@ const Services3 = ({sr}) => {
           <div className="col-lg-3 col-md-6 items md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <FaBullhorn />
+                {/* <FaBullhorn /> */}
+                <Image
+                  src="/img/services/3.jpg"
+                  width={300}
+                  height={250}
+                  alt="Picture of the author"
+                />
               </span>
               <h5>Brand Awareness</h5>
               <p>
@@ -67,7 +74,13 @@ const Services3 = ({sr}) => {
           <div className="col-lg-3 col-md-6 items active md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <FaSortAmountUp />
+                {/* <FaSortAmountUp /> */}
+                <Image
+                  src="/img/services/1.jpg"
+                  width={300}
+                  height={250}
+                  alt="Picture of the author"
+                />
               </span>
               <h5>Increase Your Sales Right Away</h5>
               <p>
@@ -82,7 +95,13 @@ const Services3 = ({sr}) => {
           <div className="col-lg-3 col-md-6 items sm-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <IoIosPeople />
+                {/* <IoIosPeople /> */}
+                <Image
+                  src="/img/services/2.jpg"
+                  width={300}
+                  height={250}
+                  alt="Picture of the author"
+                />
               </span>
               <h5>Become HouseHold Name</h5>
               <p>
@@ -96,7 +115,13 @@ const Services3 = ({sr}) => {
           <div className="col-lg-3 col-md-6 items">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <IoMdReverseCamera />
+                {/* <IoMdReverseCamera /> */}
+                <Image
+                  src="/img/services/4.jpg"
+                  width={300}
+                  height={250}
+                  alt="Picture of the author"
+                />
               </span>
               <h5>Reversing Bad Publicity</h5>
               <p>

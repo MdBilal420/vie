@@ -56,7 +56,6 @@ const Homepage5 = () => {
     });
   }, [navbarRef]);
 
-  console.log("sss",showContent)
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} serviceRef={serviceRef} setShowContent={setShowContent} showContent={showContent} />
